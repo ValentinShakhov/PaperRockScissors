@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'hartwig'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.inject:guice:7.0.0'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.mockito:mockito-core:5.12.0'
+}
